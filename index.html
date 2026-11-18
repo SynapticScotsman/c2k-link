@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; connect-src 'self' https://api.github.com; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+<title>Crew link</title>
+<style>
+  :root { color-scheme: light dark; --bg: #f6f7f5; --fg: #17201b; --muted: #4f5b54; --accent: #1f6f4a; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111713; --fg: #e9efe9; --muted: #a8b4ac; --accent: #6fcf9a; } }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); }
+  body { font: 18px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 30em; margin: 0 auto; padding: 48px 16px; }
+  h1 { font-size: 22px; margin: 0 0 12px; color: var(--accent); }
+  p { margin: 0 0 12px; }
+  #more { color: var(--muted); font-size: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Crew link</h1>
+  <p id="msg" role="status">Finding the crew page&hellip;</p>
+  <p id="more" hidden></p>
+  <noscript><p>This link needs JavaScript switched on.</p></noscript>
+</main>
+<script src="forward.js"></script>
+</body>
+</html>
